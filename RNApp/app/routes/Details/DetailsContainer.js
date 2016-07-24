@@ -5,12 +5,10 @@ import Details from './Details';
 class DetailsContainer extends Component {
 
   render() {
-    const {detailsReady } = this.props;
+    const { detailsReady } = this.props;
 
     return (
-      <Details
-        detailsReady = { detailsReady }
-      />
+      <Details detailsReady={detailsReady} />
     );
   }
 }
@@ -21,4 +19,4 @@ export default createContainer(() => {
   return {
     detailsReady: handle.ready(),
   };
-},DetailsContainer);
+}, DetailsContainer);

@@ -4,7 +4,7 @@ import {
   StyleSheet,
   Platform,
   ProgressBarAndroid,
-  ActivityIndicatorIOS,
+  ActivityIndicator,
 } from 'react-native';
 import { COLORS } from '../styles';
 
@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 });
 
 const IOSLoading = (props) => (
-  <ActivityIndicatorIOS
+  <ActivityIndicator
     animating
     size={props.size}
     {...props}

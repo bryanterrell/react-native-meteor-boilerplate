@@ -1,0 +1,22 @@
+{
+  "name": "react-native-meteor-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a simple way to get started building an app with React Native and Meteor. It is opinionated to make it easy for people to start but if you have your own way of doing things it's very easy to swap things out and move them around however you see fit.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spencercarli/react-native-meteor-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spencercarli/react-native-meteor-boilerplate/issues"
+  },
+  "homepage": "https://github.com/spencercarli/react-native-meteor-boilerplate#readme",
+  "devDependencies": {
+    "eslint": "^3.1.1"
+  }
+}
